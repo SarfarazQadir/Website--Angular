@@ -136,23 +136,23 @@ nav {
 
 }
 
-.card-img-1 {
-    background-image: url("../Assets/card-img-1.webp");
+/* .card-img-1 {
+    background-image: url("../../assets/images/card-img-1.webp");
     height: 300px;
     background-size: cover;
 }
 
 .card-img-2 {
-    background-image: url("../Assets/card-img-2.webp");
+    background-image: url("../../assets/images/card-img-2.webp");
     height: 300px;
     background-size: cover;
 }
 
 .card-img-3 {
-    background-image: url("../Assets/card-img-3.webp");
+    background-image: url("../../assets/images//card-img-3.webp");
     height: 300px;
     background-size: cover;
-}
+} */
 
 .card-img-content {
     color: white;
@@ -212,7 +212,7 @@ nav {
 /* About-page */
 
 .about-page-banner-img {
-    background-image: url("../Assets/About-page-banner.webp");
+    /* background-image: url("../Assets/About-page-banner.webp"); */
     height: 720px;
     background-position: bottom;
     background-size: cover;
@@ -277,7 +277,7 @@ footer {
 
 .shop-banner {
     height: 80vh;
-    background-image: url(../Assets/banner\ da.webp);
+    /* background-image: url(../Assets/banner\ da.webp); */
     background-size: cover;
     background-position: top 50px;
 }
