@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Proxima-Nova, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: absolute !important;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-item {
+    margin-top: 5.7px;
+}
+
+.icons a {
+    color: gray;
+}
+
+.icons a:hover {
+    color: rgba(245, 245, 245, 0.763);
+}
+
+
+.banner video {
+    height: 100vh;
+    object-fit: cover;
+    /* position: absolute; */
+    width: 100%;
+}
+
+.banner .banner-content h1 {
+    font-size: 80px;
+}
+
+.banner .banner-content .aura {
+    color: rgb(201, 200, 200);
+}
+
+.banner .banner-content .watches {
+
+    color: rgb(162, 162, 162);
+}
+
+.banner .banner-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.nav-banner {
+    position: relative !important;
+}
+
+/* about-page */
+
+.about-page-heading-1 {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-page-heading-1 {}
+
+.card-main p {
+    color: black;
+}
+
+.card-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin: 20px 0;
+    transition: all .5s;
+}
+
+.card-main:hover {
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    transition: all .5s;
+   }
+   
+   .card-main img {
+
+       width: 90%;
+       transition: all .5s;
+   }
+   .card-main:hover img {
+       width: 100%;
+       transition: all .5s;
+}
+
+.card-home-page-btn {
+    width: 70%;
+}
+
+/* Card-home-page */
+.home-page-cards-heading {
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.card-home-page {
+    border: 0;
+    align-items: center;
+}
+
+.card-home-page-content {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-button {
+    border-radius: 0px;
+    
+
+}
+
+.card-img-1 {
+    background-image: url("../Assets/card-img-1.webp");
+    height: 300px;
+    background-size: cover;
+}
+
+.card-img-2 {
+    background-image: url("../Assets/card-img-2.webp");
+    height: 300px;
+    background-size: cover;
+}
+
+.card-img-3 {
+    background-image: url("../Assets/card-img-3.webp");
+    height: 300px;
+    background-size: cover;
+}
+
+.card-img-content {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 180px;
+    line-height: 0px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+
+.card-img-content-2 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container .row h6 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.container .row h5 {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.blogs-content {
+    font-size: 13px;
+    margin-top: 20px;
+    color: #626975;
+}
+
+.last-content-1 {
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 50px;
+}
+
+.last-content-2 {
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* About-page */
+
+.about-page-banner-img {
+    background-image: url("../Assets/About-page-banner.webp");
+    height: 720px;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+
+}
+
+.about-page-banner-img p {
+    color: white;
+
+}
+
+.about-page-banner-para {
+    font-size: 12px;
+}
+
+.about-page-content-1 {
+    font-size: 14px;
+}
+
+.about-page-content-2 {
+    font-size: 12px;
+}
+
+.about-page-content-3 {
+    font-size: 14px;
+}
+
+.about-page-content-4 {
+    font-size: 12px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.767);
+    margin-top: 70px;
+    margin: 0px;
+}
+
+.footer-img{
+   width: 150px;
+}
+.footer-img p{
+   margin-top: 15px;
+   color: white;
+   text-decoration: none;
+}
+
+
+.widget-title,
+.link-secondary {
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.shop-banner {
+    height: 80vh;
+    background-image: url(../Assets/banner\ da.webp);
+    background-size: cover;
+    background-position: top 50px;
+}
+
+.shop-banner-overlay {
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+}
+
+.home-page-cards-heading {
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+
+/* item-detail-page */
+
+.item-detail-page-main{
+   margin-top: 50px;
+}
+
+.item-detail{
+   width: 500px;
+   margin-top: 40px;
+}
+
+.item-detail-content{
+   margin-top: 80px;
+   
+
+}
+
+.item-detail-para-1{
+   font-size: 20px;
+   color: black;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+}
+
+.item-detail-page-footer{
+   margin-top: 100px;
+}
