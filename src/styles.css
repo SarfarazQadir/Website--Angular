@@ -216,7 +216,7 @@ nav {
 /* About-page */
 
 .about-page-banner-img {
-    /* background-image: url("../Assets/About-page-banner.webp"); */
+    background-image: url(../../Website/src/assets/images/About-page-banner.webp);
     height: 720px;
     background-position: bottom;
     background-size: cover;
@@ -281,7 +281,7 @@ footer {
 
 .shop-banner {
     height: 80vh;
-    /* background-image: url(../Assets/banner\ da.webp); */
+    background-image: url(../../Website/src/assets/images/banner\ da.webp);
     background-size: cover;
     background-position: top 50px;
 }
