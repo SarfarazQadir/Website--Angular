@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   username = "Sarfaraz";
   userage = 22;
+
+  disable = true;
+
+  
 }
