@@ -341,5 +341,11 @@ footer {
 
 .item-detail-page-footer{
    margin-top: 100px;
-   
+   color: aliceblue;
+   text-decoration: none;
+}
+.list-unstyled{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
