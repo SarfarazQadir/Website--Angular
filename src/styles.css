@@ -293,7 +293,7 @@ footer {
 
 .shop-banner {
     height: 80vh;
-    /* background-image: url("./assets/images/banner/da.webp"); */
+    background-image: url("^../src/assets/images/banner\ da.webp"); 
     background-size: cover;
     background-position: top 50px;
 }
